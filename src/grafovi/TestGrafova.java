@@ -7,8 +7,12 @@
 
 package grafovi;
 
-import java.util.LinkedList;
-import java.util.Queue;
+
+/**
+ * 
+ * @author Nemanja Micovic
+ * @version 0.2
+ */
 
 public class TestGrafova
 {
@@ -33,7 +37,10 @@ public class TestGrafova
 		System.out.println("\nBFS START");
 		G.BFSstart(0);
 		System.out.println("BFS END");
-	
+		if(G.isConnected(0, 4))
+			System.out.println("YES");
+		else
+			System.out.println("no!");
 	}
 
 }

@@ -8,6 +8,12 @@ package grafovi;
 
 import java.util.LinkedList;
 
+/**
+ * 
+ * @author Nemanja Micovic
+ * @version 0.2
+ */
+
 public class Vertex
 {
 	private String name;								// Vertex name
