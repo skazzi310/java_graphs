@@ -12,7 +12,7 @@ import java.util.Queue;
 
 public class TestGrafova
 {
-
+	// HELLO WORLD
 	public static void main(String[] args)
 	{
 		Vertex[] niz = new Vertex[6];
@@ -41,3 +41,4 @@ public class TestGrafova
 // Graph example 1
 //	3 1 -1 3 2 0 -1 5 3 1 -1 2 1 0 -1 5 -1 4 2 -1
 //	DFS: 0 1 2 3 5 4
+//	BFS: 0 1 3 2 5 4
